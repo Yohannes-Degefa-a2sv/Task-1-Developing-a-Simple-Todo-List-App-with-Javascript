@@ -204,48 +204,8 @@ input:checked + span::before {
 }
 
 .edit-btn {
-  margin-right: 5px; /* Adjust this to control the space between edit and delete buttons */
+  margin-right: 5px; 
 }
 
-/* 
-.filters {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 25px;
- 
-  position: relative;
-  height: 10vh;
-  place-items: center;
-} */
 
-/* .filter {
-  color: #eee;
-  padding: 5px 15px;
-  border-radius: 100px;
-  border: 2px solid #e6b7eca1;
-  transition: all 0.2s ease;
-  cursor: pointer;
-}
 
-.filter.active,
-.filter:hover {
-  background-color: #e6b7eca1;
-} */
-
-/* .delete-all {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-80%, -65%);
-  color: #eee;
-  padding: 5px 15px;
-  border-radius: 100px;
-  border: 2px solid #e6b7eca1;
-  transition: all 0.2s ease;
-  cursor: pointer;
-}
-
-.delete-all.active,
-.delete-all:hover {
-  background-color: #e6b7eca1;
-} */
