@@ -1,5 +1,5 @@
 let todosJson = JSON.parse(localStorage.getItem("todos")) || [];
-// const deleteAllButton = document.querySelector(".delete-all");
+
 
 const filters = document.querySelectorAll(".filter");
 let filter = "";
@@ -54,7 +54,6 @@ input.addEventListener("keyup", (e) => {
 addButton.addEventListener("click", () => {
   let todo = input.value.trim();
 
-  // if there is an input
   if (todo) {
     addTodo(todo);
   }
@@ -90,22 +89,4 @@ function edit(todo) {
   }
 }
 
-// filters.forEach(function (el) {
-//   el.addEventListener("click", (e) => {
-//     if (el.classList.contains("active")) {
-//       el.classList.remove("active");
-//       filter = "";
-//     } else {
-//       filters.forEach((tag) => tag.classList.remove("active"));
-//       el.classList.add("active");
-//       filter = e.target.dataset.filter;
-//     }
-//     showTodos();
-//   });
-// });
 
-// deleteAllButton.addEventListener("click", () => {
-//   todosJson = [];
-//   localStorage.setItem("todos", JSON.stringify(todosJson));
-//   showTodos();
-// });
